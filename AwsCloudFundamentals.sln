@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api", "Movies.Api\Mo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3Playground", "S3Playground\S3Playground.csproj", "{43FD951A-D903-4DFB-AFE4-35D997FA9203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretsManager", "SecretsManager\SecretsManager.csproj", "{12BFEC8D-A356-4AFC-9D7F-02375BDBF017}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Api", "Weather.Api\Weather.Api.csproj", "{09721DB2-7331-4FE5-BC88-6698AEC30E11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{43FD951A-D903-4DFB-AFE4-35D997FA9203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43FD951A-D903-4DFB-AFE4-35D997FA9203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43FD951A-D903-4DFB-AFE4-35D997FA9203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BFEC8D-A356-4AFC-9D7F-02375BDBF017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BFEC8D-A356-4AFC-9D7F-02375BDBF017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BFEC8D-A356-4AFC-9D7F-02375BDBF017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BFEC8D-A356-4AFC-9D7F-02375BDBF017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09721DB2-7331-4FE5-BC88-6698AEC30E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09721DB2-7331-4FE5-BC88-6698AEC30E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09721DB2-7331-4FE5-BC88-6698AEC30E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09721DB2-7331-4FE5-BC88-6698AEC30E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
