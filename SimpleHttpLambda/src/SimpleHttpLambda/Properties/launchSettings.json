@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "c:\\Users\\ricmr\\.dotnet\\tools\\dotnet-lambda-test-tool-8.0.exe",
+      "workingDirectory": "C:\\code\\AwsFundamentalsCourse\\SimpleHttpLambda\\src\\SimpleHttpLambda"
+    }
+  }
+}
