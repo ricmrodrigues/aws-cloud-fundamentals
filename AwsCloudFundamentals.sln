@@ -21,9 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretsManager", "SecretsMa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Api", "Weather.Api\Weather.Api.csproj", "{09721DB2-7331-4FE5-BC88-6698AEC30E11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLambda", "SimpleLambda\src\SimpleLambda\SimpleLambda.csproj", "{B9E17DED-97A4-4618-8481-5CE4C12B5ECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleLambda", "SimpleLambda\src\SimpleLambda\SimpleLambda.csproj", "{B9E17DED-97A4-4618-8481-5CE4C12B5ECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttpLambda", "SimpleHttpLambda\src\SimpleHttpLambda\SimpleHttpLambda.csproj", "{C57C60C6-9724-43CA-94EA-40DDBB1F6185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleHttpLambda", "SimpleHttpLambda\src\SimpleHttpLambda\SimpleHttpLambda.csproj", "{C57C60C6-9724-43CA-94EA-40DDBB1F6185}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSqsLambda", "SimpleSqsLambda\src\SimpleSqsLambda\SimpleSqsLambda.csproj", "{9338D3E2-F123-44B8-BCA1-0414B52E8B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSnsLambda", "SimpleSnsLambda\src\SimpleSnsLambda\SimpleSnsLambda.csproj", "{CD1CBED8-3E0A-4DC7-9FA5-CB23E8D4D109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDynamoDbLambda", "SimpleDynamoDbLambda\src\SimpleDynamoDbLambda\SimpleDynamoDbLambda.csproj", "{A033CE2A-8E5F-467B-960C-7D5E23FDC0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleS3Lambda", "SimpleS3Lambda\src\SimpleS3Lambda\SimpleS3Lambda.csproj", "{EAEF15DA-E797-4F50-A334-14983993421D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApiLambda", "SimpleApiLambda\SimpleApiLambda.csproj", "{4E336319-EA04-4DC4-A52C-2755BDA2E2FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +85,26 @@ Global
 		{C57C60C6-9724-43CA-94EA-40DDBB1F6185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C57C60C6-9724-43CA-94EA-40DDBB1F6185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C57C60C6-9724-43CA-94EA-40DDBB1F6185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9338D3E2-F123-44B8-BCA1-0414B52E8B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9338D3E2-F123-44B8-BCA1-0414B52E8B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9338D3E2-F123-44B8-BCA1-0414B52E8B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9338D3E2-F123-44B8-BCA1-0414B52E8B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1CBED8-3E0A-4DC7-9FA5-CB23E8D4D109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1CBED8-3E0A-4DC7-9FA5-CB23E8D4D109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1CBED8-3E0A-4DC7-9FA5-CB23E8D4D109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1CBED8-3E0A-4DC7-9FA5-CB23E8D4D109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A033CE2A-8E5F-467B-960C-7D5E23FDC0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A033CE2A-8E5F-467B-960C-7D5E23FDC0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A033CE2A-8E5F-467B-960C-7D5E23FDC0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A033CE2A-8E5F-467B-960C-7D5E23FDC0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAEF15DA-E797-4F50-A334-14983993421D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEF15DA-E797-4F50-A334-14983993421D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEF15DA-E797-4F50-A334-14983993421D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEF15DA-E797-4F50-A334-14983993421D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E336319-EA04-4DC4-A52C-2755BDA2E2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E336319-EA04-4DC4-A52C-2755BDA2E2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E336319-EA04-4DC4-A52C-2755BDA2E2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E336319-EA04-4DC4-A52C-2755BDA2E2FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
